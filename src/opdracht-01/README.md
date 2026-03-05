@@ -8,7 +8,8 @@ Je gaat tests schrijven voor todo validatie functies. Er staat al **1 voorbeeld 
 
 ## Bestanden
 - `todoUtils.js` - De functies die je moet testen (al klaar)
-- `todoUtils.test.js` - Het test bestand waar jij tests invult
+-
+ `todoUtils.test.js` - Het test bestand waar jij tests invult
 
 ## Wat moet je testen?
 1. `isValidTodo()` - Checkt of een todo geldig is
