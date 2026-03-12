@@ -1,3 +1,5 @@
+
+
 /**
  * Sorteert producten op prijs (laag naar hoog)
  */
@@ -12,6 +14,7 @@ export function filterByCategory(products, category) {
   return products.filter(product => product.category === category);
 }
 
+
 /**
  * Zoekt producten die een bepaalde term bevatten
  */
@@ -21,3 +24,5 @@ export function searchProducts(products, searchTerm) {
     product.name.toLowerCase().includes(lowerSearch)
   );
 }
+
+
