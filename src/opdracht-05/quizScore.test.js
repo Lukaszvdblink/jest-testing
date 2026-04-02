@@ -4,14 +4,14 @@ describe('Quiz Score', () => {
   let quizAnswers;
 
   beforeEach(() => {
-    // TODO: Maak hier een array met quiz antwoorden
-    // quizAnswers = [
-    //   { question: 1, isCorrect: true, points: 10 },
-    //   { question: 2, isCorrect: true, points: 10 },
-    //   { question: 3, isCorrect: false, points: 0 },
-    //   { question: 4, isCorrect: true, points: 10 },
-    //   { question: 5, isCorrect: true, points: 10 }
-    // ];
+     TODO: Maak hier een array met quiz antwoorden
+     quizAnswers = [
+       { question: 1, isCorrect: true, points: 10 },
+       { question: 2, isCorrect: true, points: 10 },
+      { question: 3, isCorrect: false, points: 0 },
+      { question: 4, isCorrect: true, points: 10 },
+      { question: 5, isCorrect: true, points: 10 }
+     ];
   });
 
   // VOORBEELD - Deze test is al ingevuld
