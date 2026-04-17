@@ -5,13 +5,13 @@ describe('Quiz Score', () => {
 
   beforeEach(() => {
     // TODO: Maak hier een array met quiz antwoorden
-     quizAnswers = [
-       { question: 1, isCorrect: true, points: 10 },
-       { question: 2, isCorrect: true, points: 10 },
+    quizAnswers = [
+      { question: 1, isCorrect: true, points: 10 },
+      { question: 2, isCorrect: true, points: 10 },
       { question: 3, isCorrect: false, points: 0 },
       { question: 4, isCorrect: true, points: 10 },
       { question: 5, isCorrect: true, points: 10 }
-     ];
+    ];
   });
 
   // VOORBEELD - Deze test is al ingevuld
@@ -27,7 +27,7 @@ describe('Quiz Score', () => {
     // TODO: Gebruik quizAnswers uit beforeEach
     // TODO: Met 4 van 5 goed moet het 80% zijn
 
-   const result = calculatePercentage(quizAnswers)
+    const result = calculatePercentage(quizAnswers)
     expect(result).toBe(80); // Deze test faalt! Vervang met je eigen test
   });
 
@@ -35,7 +35,7 @@ describe('Quiz Score', () => {
     // TODO: Gebruik quizAnswers (80% goed)
     // TODO: Check of isPassed true teruggeeft
     const result = isPassed(quizAnswers)
-    
+
     expect(result).toBe(true); // Deze test faalt! Vervang met je eigen test
   });
 
@@ -43,8 +43,8 @@ describe('Quiz Score', () => {
     // TODO: Maak nieuwe answers array met 50% goed
     // TODO: Check of isPassed false teruggeeft
     const lowScore = [
-      {question: 1, isCorrect: true, points: 10 },
-      {question: 2, isCorrect: false, points: 0 }
+      { question: 1, isCorrect: true, points: 10 },
+      { question: 2, isCorrect: false, points: 0 }
     ]
     const result = isPassed(lowScore)
     expect(result).toBe(false); // Deze test faalt! Vervang met je eigen test
